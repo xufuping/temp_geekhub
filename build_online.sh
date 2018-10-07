@@ -4,7 +4,7 @@ rm -rf dist/*
 npm run release
 
 cd dist
-tar zcvf angela.tar.gz *
+tar zcvf geekhub.tar.gz *
 
 shopt -s  extglob
-rm -rf !(angela.tar.gz)
+rm -rf !(geekhub.tar.gz)
